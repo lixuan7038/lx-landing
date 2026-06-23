@@ -18,15 +18,15 @@
 
 - ## 项目结构
 个人广告页源码/
-├── index.html          # 主页面
-├── css/
-│   ├── index.css       # 主样式文件
-│   └── normalize.css   # CSS重置
-└── img/
-    ├── bj.png          # 背景图
-    ├── bj2.png         # 内容背景
-    ├── lan.png         # 移动端背景
-    └── zu.png          # 按钮背景
+    index.html          # 主页面
+    css/
+        index.css       # 主样式文件
+        normalize.css   # CSS重置
+     img/
+        bj.png          # 背景图
+        bj2.png         # 内容背景
+        lan.png         # 移动端背景
+        zu.png          # 按钮背景
 
 展示页面
 <img width="2555" height="1407" alt="image" src="https://github.com/user-attachments/assets/da564a42-d2dd-4981-822f-583864188cfe" />
