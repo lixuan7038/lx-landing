@@ -1,0 +1,276 @@
+body{
+	background: url(../img/bj.png) top right;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 100%;
+	margin: 0;
+}
+.content{
+	background: url(../img/bj2.png);
+	height: 633px;
+	width: 1200px;
+	background-size: cover;
+	margin-top: 13%;
+	position: relative;
+}
+.title{
+	font-size: 30px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #FFFFFF;
+	padding: 21px;
+	margin-left:15px;
+}
+.flex-box{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 16px 0;
+	padding-top: 0px;
+}
+.flex-item{
+	width: 50%;
+}
+.flex-item-n{
+	margin: 0 10px;
+}
+.flex-item-n h1{
+	font-size: 22px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #000333;
+	padding-top: 50px;
+}
+.flex-item-n p{
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #000333;
+	margin-top: 20px;
+}
+.flex-item-n .line{
+	margin-top: 20px;
+	height: 2px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+.ico{
+	
+	width: 259px;
+	height: 99px;
+	background: url(../img/zu.png);
+	background-size: cover;
+	margin: 0 auto;
+	margin-top: 32px;
+	text-align: center;
+	font-size: 22px;
+	font-family: Microsoft YaHei;
+	font-weight: bold;
+	color: #FFFFFF;
+	line-height: 93px;
+	padding-left: 30px;
+}
+.text{
+	text-align: center;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #54688F;
+}
+.pa-footer{
+	height: 14px;
+	font-size: 14px;
+	font-family: Microsoft YaHei;
+	font-weight: 400;
+	color: #92A6CC;
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -203px;
+}
+
+@media only screen and (max-width: 1200px){
+	.content{
+		background: url(../img/lan.png) no-repeat;
+		height: auto;
+		margin: auto;
+		width: 90%;
+		background-size:  430px 80px;
+		margin-top: 13%;
+		position: relative;
+		border: #fff;
+		border-radius: 10px;
+	}
+	.banxin{
+		width: 100%;
+	}
+	.flex-item-n p{
+		font-size: 14px;
+		font-family: Microsoft YaHei;
+		font-weight: 400;
+		color: #000333;
+		margin-top: 10px;
+		height: 50px;
+		line-height: 25px;
+	}
+	.flex-item-n .line{
+		margin-top: 10px;
+		height: 2px;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	.title{
+		font-size: 24px;
+		font-family: Microsoft YaHei;
+		font-weight: bold;
+		color: #FFFFFF;
+		padding: 21px;
+		margin-left:15px;
+	}
+	.baikuang{
+		border: 2px solid #fff;
+		border-radius: 16px;
+		background-color: rgba(255, 255, 255, .2);
+	}
+	.flex-item-n h1{
+		font-size: 18px;
+		font-family: Microsoft YaHei;
+		font-weight: bold;
+		color: #000333;
+		padding-top: 30px;
+	}
+	.ico{
+		width: 172px;
+		    height: 70px;
+		    background: url(../img/zu.png);
+		    background-size: cover;
+		    margin: 0 auto;
+		    margin-top: 26px;
+		    text-align: center;
+		    font-size: 18px;
+		    font-family: Microsoft YaHei;
+		    font-weight: bold;
+		    color: #FFFFFF;
+		    line-height: 61px;
+		    padding-left: 18px;
+	}
+	.text{
+		text-align: center;
+		font-size: 12px;
+		font-family: Microsoft YaHei;
+		font-weight: 400;
+		color: #54688F;
+		margin-bottom: 30px;
+	}
+	.pa-footer{
+		font-size: 12px;
+		font-family: Microsoft YaHei;
+		font-weight: 400;
+		color: #92A6CC;
+		position: absolute;
+		bottom: 30px;
+		left: 50%;
+		margin-left: -168px;
+	}
+	
+}
+@media only screen and (max-width: 768px){
+	.content{
+		background: url(../img/lan.png) no-repeat;
+		height: auto;
+		margin: auto;
+		width: 90%;
+		background-size:  300px 44px;
+		margin-top: 0px;
+		position: relative;
+		border: #fff;
+		border-radius: 10px;
+		
+	}
+	body{
+		height: 100vh;
+		min-height: 820px;
+		position: relative;
+	}
+	.banxin{
+		width: 100%;
+		padding-top: 50px;
+		
+	}
+	.flex-item-n p{
+		font-size: 12px;
+		font-family: Microsoft YaHei;
+		font-weight: 400;
+		color: #000333;
+		margin-top: 10px;
+		height: 30px;
+		line-height: 16px;
+	}
+	.flex-item-n .line{
+		margin-top: 10px;
+		height: 2px;
+		width: 100%;
+		background-color: #FFFFFF;
+	}
+	.title{
+		font-size: 18px;
+		font-family: Microsoft YaHei;
+		font-weight: bold;
+		color: #FFFFFF;
+		padding: 8px;
+		margin-left:0px;
+	}
+	.baikuang{
+		border: 2px solid #fff;
+		border-radius: 16px;
+		background-color: rgba(255, 255, 255, .2);
+	}
+	.flex-item-n h1{
+		font-size: 16px;
+		font-family: Microsoft YaHei;
+		font-weight: bold;
+		color: #000333;
+		padding-top: 20px;
+	}
+	.ico{
+		    width: 140px;
+		    height: 50px;
+		    background: url(../img/zu.png);
+		    background-size: cover;
+		    margin: 0 auto;
+		    margin-top: 14px;
+		    text-align: center;
+		    font-size: 14px;
+		    font-family: Microsoft YaHei;
+		    font-weight: bold;
+		    color: #FFFFFF;
+		    line-height: 51px;
+		    padding-left: 14px;
+	}
+	.text{
+		text-align: center;
+		font-size: 12px;
+		font-family: Microsoft YaHei;
+		font-weight: 400;
+		color: #54688F;
+		line-height: 14px;
+		margin: 10px 10px;
+	}
+	.pa-footer{
+		font-size: 12px;
+		font-family: Microsoft YaHei;
+		font-weight: 400;
+		color: #92A6CC;
+		position: absolute;
+		bottom: 10px;
+		left: 50%;
+		margin-left: -168px;
+	}
+	.flex-item{
+		width: 100%;
+	}
+	.flex-item-n {
+	    margin: 0 0px;
+	}
+	
+}
